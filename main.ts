@@ -6,7 +6,7 @@ import { Contact } from "./resolvers/Contact.ts";
 import { Mutation } from "./resolvers/mutation.ts";
 import { Query } from "./resolvers/query.ts";
 
-const MONGO_URL = Deno.env.get("MONGO_URL");
+const MONGO_URL = "mongodb+srv://acastellanol1:Acl650537271@clusterquinto.qmjbzqt.mongodb.net/OrdinariaGQL";
 if (!MONGO_URL) {
   throw new Error("Please provide a MongoDB connection string");
 }
