@@ -22,7 +22,7 @@ const server = new ApolloServer({
     Query,
     Mutation,
     Contact
-  }
+  },
   },
 );
 

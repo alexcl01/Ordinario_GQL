@@ -66,4 +66,4 @@ export const Mutation = {
         }
         return contact;
     },
-}
+};
