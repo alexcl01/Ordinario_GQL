@@ -35,7 +35,7 @@ export const Mutation = {
             });
         }
         return contact;
-    },
+    }, 
 
     updateContact: async (
         _: unknown,
